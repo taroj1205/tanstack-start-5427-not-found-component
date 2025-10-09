@@ -22,6 +22,10 @@ prerender: {
           path: "/404",
           prerender: { enabled: true, outputPath: "/404.html" },
         },
+        {
+          path: "/this-route-doesnt-exist",
+          prerender: {enabled: true}
+        }
       ],
     }),
     viteReact(),
